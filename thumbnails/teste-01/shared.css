@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Instrument+Serif:ital@0;1&family=Caveat:wght@700&family=Inter:wght@500;700;800&display=block");
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1280px;height:720px;overflow:hidden}
+.thumb{position:relative;width:1280px;height:720px;overflow:hidden;font-family:"Inter",sans-serif}
+.abs{position:absolute}
+
+/* Pessoa recortada + luz */
+.person{position:absolute;aspect-ratio:1221/1822}
+.person img{position:absolute;inset:0;width:100%;height:100%;display:block}
+.person .tint{position:absolute;inset:0;-webkit-mask:url(assets/voce-cetico.png) center/100% 100% no-repeat;mask:url(assets/voce-cetico.png) center/100% 100% no-repeat}
+.person .rim{position:absolute;inset:0;-webkit-mask:url(assets/voce-cetico.png) center/100% 100% no-repeat;mask:url(assets/voce-cetico.png) center/100% 100% no-repeat}
+
+/* Ícone 3D estilo app */
+.icon3d{position:absolute;border-radius:24%;display:grid;place-items:center;
+  box-shadow:inset 0 3px 2px rgba(255,255,255,.45),inset 0 -8px 14px rgba(0,0,0,.28),inset 0 0 0 1px rgba(255,255,255,.12),0 18px 30px rgba(0,0,0,.45),0 4px 8px rgba(0,0,0,.3)}
+.icon3d::after{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(160deg,rgba(255,255,255,.35) 0%,rgba(255,255,255,0) 38%,rgba(0,0,0,0) 70%,rgba(0,0,0,.18) 100%);pointer-events:none}
+.icon3d svg{width:62%;height:62%;filter:drop-shadow(0 2px 1px rgba(0,0,0,.25))}
+.ic-claude{background:radial-gradient(120% 120% at 30% 20%,#EE8F72 0%,#D97757 45%,#B85A3D 100%)}
+.ic-elementor{background:radial-gradient(120% 120% at 30% 20%,#C2185B 0%,#92003B 50%,#62002A 100%)}
+
+/* Janela de navegador com landing page */
+.win{position:absolute;border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 30px 60px rgba(0,0,0,.5),0 0 0 1px rgba(255,255,255,.08)}
+.win .bar{height:30px;display:flex;align-items:center;gap:6px;padding:0 12px;background:#1d1d22}
+.win .bar i{width:9px;height:9px;border-radius:50%;background:#555}
+.win .bar i:nth-child(1){background:#ff5f57}.win .bar i:nth-child(2){background:#febc2e}.win .bar i:nth-child(3){background:#28c840}
+.win .bar span{margin-left:10px;font:700 12px "Inter";color:#bbb;letter-spacing:.02em}
+.lp{position:relative;height:calc(100% - 30px);background:#F2EFE8;padding:14px 16px;display:grid;grid-template-rows:auto 1fr auto;gap:10px}
+.lp .nav{display:flex;justify-content:space-between;align-items:center}
+.lp .nav b{font:800 11px "Inter";letter-spacing:.12em}
+.lp .nav span{display:flex;gap:6px}.lp .nav span i{width:22px;height:5px;border-radius:3px;background:#bbb}
+.lp .hero{display:grid;grid-template-columns:1.1fr 1fr;gap:12px;align-items:center}
+.lp h3{font:900 25px/0.95 "Archivo";font-stretch:75%;color:#111;text-transform:uppercase}
+.lp h3 em{font-family:"Instrument Serif";font-style:italic;font-weight:400;text-transform:none;font-size:27px}
+.lp .btn{margin-top:9px;display:inline-block;background:#111;color:#C8F04A;font:800 10px "Inter";padding:7px 12px;border-radius:99px}
+.lp .img{height:100%;min-height:96px;border-radius:10px;background:radial-gradient(60% 70% at 55% 45%,#E9C9A3 0%,#C48C5B 55%,#7A4E2E 100%)}
+.lp .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.lp .cards i{height:26px;border-radius:7px;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.08)}
+
+.hand{font-family:"Caveat",cursive;font-weight:700;line-height:1}
+.stamp{position:absolute;font:900 30px "Archivo";font-stretch:85%;letter-spacing:.06em;text-transform:uppercase;color:#D92D20;background:#fff;border:5px solid #D92D20;padding:6px 16px;box-shadow:6px 6px 0 rgba(0,0,0,.85)}
