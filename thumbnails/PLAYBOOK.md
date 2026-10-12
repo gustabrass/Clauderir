@@ -155,3 +155,33 @@ Depois de ~8 testes, os padrões vencedores do **seu** público mandam mais que 
 - [ ] 1 elemento fixo de identidade presente (anotação ou carimbo)
 - [ ] A e B são conceitos diferentes
 - [ ] Capa promete exatamente o que o vídeo entrega
+
+---
+
+## 10. Pipeline de produção visual (Magnific + composição em código)
+
+Referências-alvo: estilo Tasin Hossain (estúdio escuro, card de vidro, palavra com marca-texto, ícones 3D com brilho) e estilo "app icon 3D na mão" (objeto 3D brilhante segurado, card de dashboard, balões de vidro).
+
+**Divisão de trabalho (regra fixa):**
+
+| Camada | Quem faz | Ferramenta |
+|---|---|---|
+| Fundo de cena (estúdio, parede, gráfico desfocado) | IA | Magnific, sem nenhum texto no prompt |
+| Objetos 3D (ícone de app, celular, selo, megafone) | IA | Magnific, fundo transparente |
+| Sua foto: recorte + reiluminação para casar com o fundo | IA | Magnific remove background + relight |
+| **Todo texto**, cards de vidro, dashboards, marca-texto, setas, curvas, anotação manuscrita | Claude | HTML/CSS renderizado em 1280×720 (PNG) |
+| Montagem final e exportação | Claude | Composição em camadas + checklist da seção 9 |
+
+**Por que texto nunca vai para a IA:** modelo de imagem erra acento, troca letra e não respeita fonte. Em português isso é pior. Texto em código sai perfeito, editável e trocável entre A e B em segundos.
+
+**Ordem de camadas padrão:** fundo → brilho/gradiente de cor → curva/gráfico → você (reiluminado, com rim light na cor da paleta) → objeto 3D → card/texto → anotação/carimbo.
+
+**O que separa "amador" de "nível referência":** a luz da sua foto casar com o fundo. Foto de estúdio claro colada em fundo escuro denuncia a montagem. Sempre reiluminar: luz principal frontal-lateral neutra + luz de recorte (rim) atrás na cor de destaque da paleta.
+
+**Custos (créditos Magnific via MCP, out/2026):** remover fundo 3 · reiluminar 75 · geração de imagem ~100. Uma dupla A/B fica em ~500–800 créditos. Alternativa custo zero: Claude escreve os prompts, você gera no app em modo ilimitado e devolve os arquivos.
+
+**Fotos adicionais para este estilo (somar à seção 5):**
+11. Segurando um objeto imaginário na altura do peito, mão aberta, palma para cima (o objeto 3D entra na mão depois)
+12. Segurando uma caixa/livro pequeno quadrado (substituído pelo ícone 3D, a pegada fica real)
+13. Olhar de canto para cima com boca torta, cético (referência "Nobody Does This")
+Luz das fotos: neutra, frontal, sem sombra dura, fundo liso. Quanto mais neutra a foto, melhor a reiluminação.
