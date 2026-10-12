@@ -25,6 +25,7 @@ Resultado no teste: vídeo de 12 s com pausa de 0,4 s e pausa de 2,5 s → a pau
    ```
    auto-editor "VIDEO" --edit "audio:threshold=4%,mincut=0.8s" --margin "0.2s,0.3s" --export premiere -o "VIDEO_cortes.xml" --no-open
    ```
+   **FilmCraft (editor padrão do usuário):** usar `--export premiere` — gera Final Cut Pro 7 XML (xmeml), que o FilmCraft importa direto (Arquivo → Importar) e religa o vídeo original pelo caminho.
    Outros editores: `--export resolve` (DaVinci), `--export final-cut-pro`, `--export shotcut`.
    O XML aponta para o vídeo original; não mover o arquivo de lugar antes de abrir.
 4. **Se o usuário quiser o vídeo pronto direto:**
