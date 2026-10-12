@@ -14,6 +14,7 @@ Formato dos vídeos: longos, sem edição pesada, densos em conteúdo. Logo, **a
 | Rosto | Rosto grande, expressão legível (≥ 25–35% da altura) | Capas com rosto expressivo performam consistentemente acima das sem rosto |
 | Foco | **1 ideia, 1 ponto focal, no máximo 3 elementos** | Olho decide em menos de 1 s |
 | Contraste | Fundo × sujeito × texto em 3 camadas de valor (claro/médio/escuro) | Feed do YouTube é branco/preto; capa precisa "furar" os dois temas |
+| Margem de segurança | **64 px** (5% de 1280) em cima e nas laterais para texto, ícones e cards. Embaixo, o personagem pode sangrar. Personagem pode encostar/sangrar na borda direita; espaço vazio de fundo na lateral é erro | Elemento colado na borda parece cortado; vazio na lateral desequilibra a composição |
 | Zona proibida | Canto inferior direito (duração) e faixa inferior (barra de progresso de "já assistido") | Elementos ali somem |
 | Specs | 1280×720, 16:9, JPG/PNG, < 2 MB | Padrão |
 | Vencedor de A/B | YouTube **Test & Compare** escolhe por **watch time share**, não CTR | Capa enganosa (CTR alto, retenção baixa) perde. Clickbait não compensa |
@@ -147,6 +148,7 @@ Depois de ~8 testes, os padrões vencedores do **seu** público mandam mais que 
 
 ## 9. Checklist final antes de subir
 
+- [ ] Margem de 64 px em cima e nas laterais (nada de texto/ícone colado na borda, nada de faixa vazia)
 - [ ] Lê a 20% do tamanho (teste: zoom out até ~170 px de largura)
 - [ ] Máx. 4 palavras na capa, nenhuma repetida no título
 - [ ] Rosto com expressão exagerada, ≥ 25% da altura
