@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- MODELO DE REFERÊNCIA (aprovado no vídeo R$ 1.997, capa azul).
+     Trocar só: --bg/--eco (cor do vídeo), palavras do .eco, os 2 ícones, o valor/frase na caixa, o print do navegador e a foto.
+     Medidas em 1280×720. Manter posições e tamanhos. -->
+<link rel="stylesheet" href="sistema.css">
+<style>:root{--bg:#2747FF;--eco:#3A58FF;--ink:#0C0E0B;--boxbg:#0C0E0B;--boxfg:#CCF43F}
+.ic{position:absolute;filter:drop-shadow(10px 14px 0 rgba(0,0,0,.28))}
+.op{font-family:Archivo,sans-serif;font-weight:900;font-stretch:75%;color:#fff;line-height:1}
+.slot{display:grid;place-items:center;text-align:center;font:700 16px Figtree;color:#0C0E0B;background:repeating-linear-gradient(135deg,#ffffffcc 0 12px,#ffffff99 12px 24px)}
+</style></head><body>
+<div class="thumb">
+  <!-- 1. Palavra vazada gigante: palavras-chave do vídeo, 2 linhas (top -6 e 440) -->
+  <div class="eco" style="top:-6px">CLAUDE ELEMENTOR</div>
+  <div class="eco" style="top:440px;left:-80px">ELEMENTOR CLAUDE</div>
+  <!-- 2. Linha 1: ícone 3D + operador + ícone 3D (≈175 px cada, girados ±5°) -->
+  <div class="ic slot" style="left:56px;top:48px;width:178px;height:178px;border-radius:40px;transform:rotate(-6deg)">ÍCONE 3D<br>ferramenta 1</div>
+  <div class="abs op" style="left:252px;top:76px;font-size:130px">+</div>
+  <div class="ic slot" style="left:340px;top:52px;width:174px;height:174px;border-radius:40px;transform:rotate(5deg)">ÍCONE 3D<br>ferramenta 2</div>
+  <!-- 3. Linha 2: resultado em caixa preta/limão, 132 px -->
+  <div class="abs h" style="left:64px;top:262px;font-size:132px;color:#fff">= <span class="box">R$ 1.997</span></div>
+  <!-- 4. Linha 3: prova (print real) em navegador, 360 px, girado -2,5° -->
+  <div class="browser" style="left:72px;top:432px;width:360px;transform:rotate(-2.5deg)"><div class="bar"><i></i><i></i><i></i><span>site-do-cliente.com.br</span></div><div class="slot" style="height:225px">PRINT REAL DA PÁGINA<br>1440×900</div></div>
+  <!-- 5. Você: recorte grande, altura 740, encostado na direita (right:-8, top:-10), olhando para o conteúdo -->
+  <svg class="abs" style="left:480px;top:0" width="800" height="720" viewBox="0 0 800 720"><g fill="#ffffff" fill-opacity=".85" stroke="#fff" stroke-width="10"><ellipse cx="460" cy="250" rx="200" ry="245"/><path d="M60 720 C80 560 220 470 460 470 C700 470 800 560 800 720 Z"/></g><text x="460" y="250" text-anchor="middle" font-family="Figtree" font-weight="700" font-size="20" fill="#0C0E0B">VOCÊ (recorte)</text><text x="460" y="278" text-anchor="middle" font-family="Figtree" font-size="16" fill="#0C0E0B">altura 740 px · olhando p/ esquerda</text></svg>
+
+</div></body></html>

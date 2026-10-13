@@ -206,3 +206,21 @@ Base: a identidade da capa do canal Gusta Brass. CSS em `thumbnails/sistema/sist
 **Regra de ocupação:** nada de faixa vazia. A pessoa ocupa ~45% da largura; título + mockups ocupam o resto com margem de 64 px em cima e à esquerda.
 
 **Mockups:** usar sempre a página real do cliente (print do Claude Design ou do site no ar). Página real > desenho genérico.
+
+---
+
+## 12. Modelo de referência (padrão aprovado: capa azul do vídeo R$ 1.997)
+
+Arquivos: `thumbnails/sistema/modelo-referencia.html` (molde com as medidas) e `modelo-referencia.png` (visual do molde).
+
+Distribuição em 1280×720, coluna da esquerda com 3 linhas e você grande à direita:
+
+| Linha | Elemento | Posição/tamanho |
+|---|---|---|
+| 1 | Ícone 3D + operador (`+`, `→`, `vs`) + ícone 3D | topo 48–52 px, ícones ≈175 px, girados −6° e +5° |
+| 2 | Resultado na caixa preta com texto limão, precedido de `=` | topo 262 px, fonte 132 px |
+| 3 | Prova: print real em janela de navegador | topo 432 px, largura 360 px, girado −2,5° |
+| — | Você (recorte), olhando para a coluna de conteúdo | altura 740 px, encostado na direita, ocupa ~60% da largura |
+| fundo | Palavras-chave vazadas em 2 linhas | topo −6 e 440 px |
+
+Regras: a coluna esquerda termina antes do rosto (≈ x 640); o rosto fica no terço direito; nada de texto manuscrito atrás da pessoa; trocar só cor de fundo, ícones, valor/frase e print.
