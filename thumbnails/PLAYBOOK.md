@@ -187,3 +187,22 @@ Referências-alvo: estilo Tasin Hossain (estúdio escuro, card de vidro, palavra
 12. Segurando uma caixa/livro pequeno quadrado (substituído pelo ícone 3D, a pegada fica real)
 13. Olhar de canto para cima com boca torta, cético (referência "Nobody Does This")
 Luz das fotos: neutra, frontal, sem sombra dura, fundo liso. Quanto mais neutra a foto, melhor a reiluminação.
+
+---
+
+## 11. Sistema visual v2 (aprovado no teste 02)
+
+Base: a identidade da capa do canal Gusta Brass. CSS em `thumbnails/sistema/sistema.css`.
+
+**Fixo em toda capa (é o que faz reconhecer o canal):**
+- Tipografia: Archivo 900, largura 75%, caixa alta. Uma palavra ou linha em **caixa de destaque** (fundo preto `#0C0E0B`, texto limão `#CCF43F`), como "Gusta **Brass**" na capa do canal.
+- **Palavra vazada gigante no fundo** (contorno, sem preenchimento, tom um pouco mais escuro que o fundo), com a palavra-chave do vídeo. É a assinatura da capa do canal.
+- Você recortado **grande** (altura 760–770 px, sangrando embaixo e na direita), com contorno branco de adesivo e sombra deslocada.
+- Mockups com contorno preto de 3 px e sombra deslocada: navegador + celular com **página real**.
+- Anotação manuscrita (Caveat) e carimbo vermelho quando couber.
+
+**O que muda por vídeo:** só a cor chapada do fundo (limão, vermelho, azul, laranja, off-white…), nunca a mesma em 2 uploads seguidos.
+
+**Regra de ocupação:** nada de faixa vazia. A pessoa ocupa ~45% da largura; título + mockups ocupam o resto com margem de 64 px em cima e à esquerda.
+
+**Mockups:** usar sempre a página real do cliente (print do Claude Design ou do site no ar). Página real > desenho genérico.
