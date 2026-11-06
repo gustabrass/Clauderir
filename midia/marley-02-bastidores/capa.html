@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Capa Marley Parte 2</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@800;900&family=Instrument+Serif:ital@0;1&family=Caveat:wght@500&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --roxo:#6B4DF2; --roxo-esc:#5A3DE0; --lime:#D4F75A; --branco:#FFFFFF;
+    --tinta:#14123A; --kraft:#E9D3A6;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#222;}
+  .capa{
+    width:1080px;height:1350px;position:relative;overflow:hidden;
+    background:var(--roxo);
+    background-image:
+      linear-gradient(rgba(255,255,255,.06) 2px,transparent 2px),
+      linear-gradient(90deg,rgba(255,255,255,.06) 2px,transparent 2px);
+    background-size:90px 90px;
+    font-family:'Archivo',sans-serif;color:var(--branco);
+  }
+  /* topo */
+  .topo{position:absolute;top:44px;left:72px;right:56px;display:flex;align-items:center;justify-content:space-between}
+  .logo{display:flex;align-items:center;gap:12px;font-family:'Inter';font-weight:800;font-size:38px;letter-spacing:.5px}
+  .tag{display:flex;align-items:center;gap:18px;font-family:'Inter';font-weight:800;font-size:22px;letter-spacing:3px}
+  .tag .dot{width:12px;height:12px;border-radius:50%;background:var(--lime);display:inline-block;margin-right:10px;vertical-align:middle}
+  .play{width:64px;height:64px;background:#fff;border-radius:16px;display:grid;place-items:center}
+  /* título */
+  .titulo{position:absolute;top:118px;left:68px;font-weight:900;font-size:154px;line-height:.92;letter-spacing:-5px}
+  .titulo .n{color:var(--lime)}
+  /* starburst */
+  .burst{position:absolute;left:-40px;top:430px;width:620px;height:620px}
+  /* polaroid */
+  .polaroid{
+    position:absolute;left:120px;top:470px;width:860px;padding:22px 22px 86px;
+    background:#fff;transform:rotate(-3deg);box-shadow:0 18px 40px rgba(20,18,58,.35);
+  }
+  .polaroid img{display:block;width:100%;height:440px;object-fit:cover;filter:saturate(1.1) contrast(1.05)}
+  .polaroid .leg{position:absolute;bottom:18px;left:40px;font-family:'Caveat';font-size:44px;color:#3a3a3a}
+  .fita{position:absolute;top:-26px;left:50%;width:220px;height:54px;margin-left:-110px;background:var(--lime);opacity:.92;transform:rotate(2deg)}
+  /* selo */
+  .selo{
+    position:absolute;right:58px;top:930px;width:190px;height:190px;border-radius:50%;
+    background:#fff;color:var(--tinta);display:flex;flex-direction:column;align-items:center;justify-content:center;
+    transform:rotate(8deg);box-shadow:0 10px 24px rgba(20,18,58,.3);
+  }
+  .selo b{font-weight:900;font-size:78px;line-height:.9;letter-spacing:-3px}
+  .selo span{font-family:'Inter';font-weight:800;font-size:17px;letter-spacing:2px;margin-top:6px}
+  /* fita kraft */
+  .kraft{
+    position:absolute;left:-30px;top:1040px;width:720px;height:96px;background:var(--kraft);
+    transform:rotate(-1.5deg);display:flex;align-items:center;padding-left:120px;
+    clip-path:polygon(0 6%,100% 0,98% 50%,100% 100%,0 94%);
+  }
+  .kraft .label{background:var(--lime);color:var(--tinta);font-weight:900;font-size:34px;letter-spacing:1px;padding:10px 22px}
+  /* serifada */
+  .serif{position:absolute;left:70px;bottom:52px;font-family:'Instrument Serif';font-style:italic;font-size:140px;line-height:1;letter-spacing:-2px}
+  .circ{position:relative;display:inline-block;margin-right:36px}
+  .circ svg{position:absolute;left:-34px;top:-6px;width:calc(100% + 68px);height:calc(100% + 24px);overflow:visible}
+  .spark{position:absolute;color:var(--lime);font-size:46px;line-height:1}
+</style>
+</head>
+<body>
+<div class="capa">
+
+  <div class="topo">
+    <div class="logo">
+      <svg width="40" height="34" viewBox="0 0 40 34" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round">
+        <path d="M4 8h12M4 26h12M24 8h12M24 17h10M24 26h12M24 8v18M16 8c-6 0-6 18 0 18"/>
+      </svg>
+      STIRVA
+    </div>
+    <div class="tag">
+      <span><i class="dot"></i>MARLEY &amp; EU · PARTE 2</span>
+      <div class="play"><svg width="28" height="28" viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z" fill="#6B4DF2"/></svg></div>
+    </div>
+  </div>
+
+  <h1 class="titulo">O MARLEY<br>TINHA <span class="n">22</span></h1>
+
+  <svg class="burst" viewBox="0 0 200 200"><polygon fill="#14123A" points="100,0 116,62 176,24 138,84 200,100 138,116 176,176 116,138 100,200 84,138 24,176 62,116 0,100 62,84 24,24 84,62"/></svg>
+
+  <div class="polaroid">
+    <div class="fita"></div>
+    <img src="foto-set.png" alt="">
+    <div class="leg">os labradores do filme</div>
+  </div>
+
+  <div class="selo"><b>22</b><span>LABRADORES</span></div>
+
+  <div class="kraft"><div class="label">PARTE 2 · OS BASTIDORES</div></div>
+
+  <div class="spark" style="left:80px;top:440px">✦</div>
+  <div class="spark" style="right:90px;top:410px;font-size:34px">✦</div>
+  <div class="spark" style="right:300px;top:1150px;font-size:32px">✦</div>
+
+  <div class="serif">
+    <span class="circ">corpos
+      <svg viewBox="0 0 400 160" preserveAspectRatio="none"><path d="M30 90 C 20 20, 380 10, 385 75 C 390 140, 40 150, 22 95 C 12 60, 120 28, 230 26" fill="none" stroke="#D4F75A" stroke-width="5" stroke-linecap="round"/></svg>
+    </span> diferentes.
+  </div>
+
+</div>
+</body>
+</html>
