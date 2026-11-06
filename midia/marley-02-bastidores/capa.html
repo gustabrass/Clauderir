@@ -12,7 +12,7 @@
   *{margin:0;padding:0;box-sizing:border-box}
   body{background:#222;}
   .capa{
-    width:1080px;height:1350px;position:relative;overflow:hidden;
+    width:1080px;height:1920px;position:relative;overflow:hidden;
     background:var(--roxo);
     background-image:
       linear-gradient(rgba(255,255,255,.06) 2px,transparent 2px),
@@ -20,6 +20,7 @@
     background-size:90px 90px;
     font-family:'Archivo',sans-serif;color:var(--branco);
   }
+  .palco{position:absolute;left:0;top:285px;width:1080px;height:1350px}
   /* topo */
   .topo{position:absolute;top:44px;left:72px;right:56px;display:flex;align-items:center;justify-content:space-between}
   .logo{display:flex;align-items:center;gap:12px;font-family:'Inter';font-weight:800;font-size:38px;letter-spacing:.5px}
@@ -63,6 +64,7 @@
 </head>
 <body>
 <div class="capa">
+<div class="palco">
 
   <div class="topo">
     <div class="logo">
@@ -101,6 +103,9 @@
     </span> diferentes.
   </div>
 
+</div>
+  <div class="spark" style="left:120px;top:150px;font-size:40px">✦</div>
+  <div class="spark" style="right:140px;top:1760px;font-size:40px">✦</div>
 </div>
 </body>
 </html>
